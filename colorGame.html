@@ -1,0 +1,33 @@
+<html>
+<head>
+	<script src="./colorGames.js"></script>
+	<link rel="stylesheet" href="./colorGame.css">
+
+</head>
+<body>
+
+<div id='chooseDiff'>
+	Please choose a difficulty :)
+    <button onclick="generateEasy()">easy</button>
+	<button onclick="generateHard()">hard</button>
+    <div>
+    	<button onclick="generateNewColors()">newcolors</button>
+    </div>
+</div>
+<div id='easy'>
+	<div id="colorPadEasy1" onClick="guessing(0)" class='rob' >&nbsp;</div>
+	<div id="colorPadEasy2" onClick="guessing(1)" class='rob' >&nbsp;</div>
+	<div id="colorPadEasy3" onClick="guessing(2)" class='rob' >&nbsp;</div>
+</div>
+<div id='hard'>
+	<div id="colorPadHard1" onClick="guessing(0)" class='rob' >&nbsp;</div>
+	<div id="colorPadHard2" onClick="guessing(1)" class='rob' >&nbsp;</div>
+	<div id="colorPadHard3" onClick="guessing(2)" class='rob' >&nbsp;</div>
+    <div id="colorPadHard4" onClick="guessing(3)" class='rob' >&nbsp;</div>
+	<div id="colorPadHard5" onClick="guessing(4)" class='rob' >&nbsp;</div>
+	<div id="colorPadHard6" onClick="guessing(5)" class='rob' >&nbsp;</div>
+</div>
+
+
+</body>
+</html>
